@@ -47,7 +47,7 @@ void loop()
     }
     else
     {
-      if (currentIndex >= totalIndicies)
+      if (currentIndex > totalIndicies)
         currentIndex = 1;
 
       digitalWrite(led, LOW);
